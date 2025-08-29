@@ -1,0 +1,88 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================================
+# Django
+# =========================================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Django media/uploads (optional, if user uploads are not stored in repo)
+media/
+
+# Django static files (collected via collectstatic)
+staticfiles/
+static/
+
+# =========================================
+# Environment & secrets
+# =========================================
+.env
+.env.*
+*.env
+.env.local
+.venv
+venv/
+ENV/
+env/
+
+# =========================================
+# IDE / Editor files
+# =========================================
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =========================================
+# System files
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Byte-compiled / optimized / DLL files
+# =========================================
+*.so
+*.dll
+*.dylib
+
+# =========================================
+# Testing
+# =========================================
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# =========================================
+# Virtual environment
+# =========================================
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
